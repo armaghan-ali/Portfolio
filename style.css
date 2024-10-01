@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+   justify-content:space-between;
+   padding-left: 20%;
+}
+
+.nav li {
+    padding: 10px;
+    margin: 10px;
+ }
+
+
+header {
+    width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.logo {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    
+    .title-ali{
+     padding-left: 20%;
+    }
+}
+.btnchat {
+background-color: rgb(0,119,255);
+border: 5px;
+height: 30px;
+width: 100px;
+color: white;
+margin-right: 5%;
+border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visit-color:visited {
+    color: white;
+}
+
+.aliskills {
+    width: 100%;
+    background-color: rgb(225, 224, 224);
+    height: 15vh;
+    margin-top: 50px;
+}
+
+.skill-ul {
+display: flex;
+justify-content: space-around;
+list-style-type: none;
+padding-top: 17px;
+}
+
+.headline {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.title-area {
+    width: 40%;
+}
+
+.image-area {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.chatbtn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+
+    border-radius: 15px;
+    border-color: whitesmoke;
+}
+
+.h4 {
+    color: black;
+}
+.btnskills {
+    background-color: rgb(0,119,255);
+    border: 5px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    margin-right: 5%;
+    border-radius: 15px;  
+ 
+ text-align: center;
+}
+.image-skills {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding-right: 60%;
+}
+.exp {
+    display: flex;
+ margin-left: 5%;
+ margin-right: 5%;   
+}
+.h4 {
+    display: flex;
+ margin-left: 5%;
+ margin-right: 5%; 
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-html {
+    width: 200px;
+    line-height: 10px;
+    background-color: rgb(0,119,255);
+    height: 10px;
+    border-radius: 10px;
+    border-right: 100px solid #b1afaf;
+}
+.progress-css {
+    width: 240px;
+    line-height: 10px;
+    background-color: rgb(0,119,255);
+    height: 10px;
+    border-radius: 10px;
+    border-right: 60px solid #b1afaf;
+}
+.progress-java {
+    width: 30px;
+    line-height: 10px;
+    background-color: rgb(0,119,255);
+    height: 10px;
+    border-radius: 10px;
+    border-right: 270px solid #b1afaf;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    
+}
+.color-blue {
+    color: rgb(0,119,255);
+}
+
+.about-section {
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.image-about {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-about img {
+    border: solid 1px black;
+    border-radius: 350px;
+}
+
+.about-details {
+    width: 50%;
+    justify-content: center;
+}
+.image-area img {
+    border: solid 1px black;
+    border-radius: 350px;
+}
+
+.skill-progress li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

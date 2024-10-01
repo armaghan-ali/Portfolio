@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .nav {
     list-style-type: none;
     display: flex;
@@ -5,7 +9,7 @@
    padding-left: 20%;
 }
 
-li {
+.nav li {
     padding: 10px;
     margin: 10px;
  }
@@ -43,13 +47,19 @@ a {
 .visit-color:visited {
     color: white;
 }
+
+.aliskills {
+    width: 100%;
+    background-color: rgb(225, 224, 224);
+    height: 15vh;
+    margin-top: 50px;
+}
+
 .skill-ul {
 display: flex;
 justify-content: space-around;
-background-color: rgb(225, 224, 224);
-margin-top: 50px;
 list-style-type: none;
-
+padding-top: 17px;
 }
 
 .headline {
@@ -67,6 +77,8 @@ list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    
+   
 }
 
 .chatbtn-div {
@@ -144,6 +156,8 @@ list-style-type: none;
 
 ul {
     list-style-type: none;
+    padding-inline-start: 0;
+    
 }
 .color-blue {
     color: rgb(0,119,255);
@@ -168,6 +182,16 @@ ul {
 
 .about-details {
     width: 50%;
+    justify-content: center;
+}
+.image-area img {
+    border: solid 1px black;
+    border-radius: 350px;
 }
 
-
+.skill-progress li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
